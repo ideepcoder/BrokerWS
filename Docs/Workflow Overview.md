@@ -1,10 +1,6 @@
-# WSRTD Workflow
+# WS Controller Workflow
 ## High level implementation design
 
-## 1) Data plugin interaction from ADK (AmiBroker)
+## 1) BrokerWS interaction from AFL ( AmiBroker )
 
-[![ADK Plugin](https://raw.githubusercontent.com/ideepcoder/Rtd_Ws_AB_plugin/refs/heads/main/images/help/workflow_1.png)
-
-## 2) Local Websocket Server/Client Models
-
-[![WSRTD Plugin](https://raw.githubusercontent.com/ideepcoder/Rtd_Ws_AB_plugin/refs/heads/main/images/help/workflow_2.png)
+[![AFL Auto-Trading Interface](https://raw.githubusercontent.com/ideepcoder/BrokerWS/refs/heads/main/images/help/workflow_ws1.png)
