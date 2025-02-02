@@ -31,6 +31,9 @@ if( wsc.IsConnected() )		// check if connection to IB was successfull
 }
 ```
 
+### AmiBroker Place Order Window
+https://www.amibroker.com/guide/w_placeorder.html
+
 # REQUEST STRUCTURES
 
 ## 1) Request IDs
