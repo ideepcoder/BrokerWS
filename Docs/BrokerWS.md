@@ -345,9 +345,13 @@ Sample Json:
 **If id == orderID, then it updates specific orderID.** don't use standard errorCode for this
 
 **standard codes**
+
 errorCode 504, 502: 	if client disconnected
+
 errorCode 505: 		fatal error
+
 errorCode 800:		clear Account / Orders list. Request fresh
+
 reserved: 321, 721, 724
 
 
