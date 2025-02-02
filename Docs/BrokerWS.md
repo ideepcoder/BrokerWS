@@ -129,11 +129,11 @@ Sample json:
 
 ```sh
 {
-"ti":		"ACCT_VALUE",
-"key":		"key01",
-"val":		"1,602,480",
-"curr":		"INR",
-"accountName":  "NSM"
+"ti":			"ACCT_VALUE",
+"key":			"key01",
+"val":			"1,602,480",
+"curr":			"INR",
+"accountName":	"NSM"
 }
 ```
 
@@ -179,16 +179,16 @@ Sample Json:
 
 ```sh
 {
-"ti":		"PORTFOLIO_VALUE",
-"conId": 	9001,
+"ti":			"PORTFOLIO_VALUE",
+"conId": 		9001,
 "exchange": 	"NSE",
-"expiry": 	"",
-"strike": 	0,
+"expiry": 		"",
+"strike": 		0,
 "currency": 	"INR",
-"secType": 	"STK",
+"secType": 		"STK",
 "localSymbol": 	"ZZZ1",
-"symbol": 	"NSE-ZZZ1-EQ",
-"right": 	""
+"symbol": 		"NSE-ZZZ1-EQ",
+"right": 		""
 "position": 	1000,
 "marketPrice": 	25,
 "marketValue": 	25000,
@@ -225,19 +225,19 @@ Sample Json:
 
 ```sh
 {
-"ti":		"CONTRACT_DATA",
-"symbol": 	"ZZZ1",
-"secType": 	"STK",
-"expiry": 	"",
-"strike": 	0,
-"right": 	"r",
+"ti":			"CONTRACT_DATA",
+"symbol": 		"ZZZ1",
+"secType": 		"STK",
+"expiry": 		"",
+"strike": 		0,
+"right": 		"r",
 "exchange": 	"NSE",
 "currency": 	"INR",
 "localSymbol": 	"ZZZ1",
 "marketName": 	"EQ",
 "tradingClass": "CLASS",
-"conId": 	9001,
-"minTick": 	0.05,
+"conId": 		9001,
+"minTick": 		0.05,
 "multiplier": 	"5",
 "orderTypes": 	"LIMIT",
 "validExchanges": "",
@@ -283,27 +283,27 @@ Sample Json:
 "orderId":		1000,
 "conId":		9001,
 "secType":		"STK",
-"localSymbol": 	      "ZZZ1",
+"localSymbol": 	"ZZZ1",
 "expiry": 		"",
 "currency":		"INR",
 "symbol": 		"NSE-ZZZ1",
 "exchange":		"NSE",
 "action": 		"BUY",
-"totalQuantity"      :50,
-"orderType": 	      "LIMIT",
-"lmtPrice": 	      22,
-"auxPrice": 	      0,
+"totalQuantity":50,
+"orderType": 	"LIMIT",
+"lmtPrice": 	22,
+"auxPrice": 	0,
 "tif": 			"DAY",
-"goodAfterTime":   "DAY",
-"goodTillDate":    "DAY",
-"parentId": 	   0,
+"goodAfterTime":"DAY",
+"goodTillDate": "DAY",
+"parentId": 	0,
 "ocaGroup":		"Grp1",
 "ocaType": 		1,
 "account": 		"key01",
 "whatIf": 		false,
 "status": 		"partial",
-"maintMargin": 	      "10",
-"warningText": 	      "testwarn"
+"maintMargin": 	"10",
+"warningText": 	"testwarn"
 }
 ```
 
@@ -331,11 +331,11 @@ Sample Json:
 "orderId": 		1000,
 "status":		"partial",
 "filled":		10,
-"remaining":	         50,
-"avgFillPrice":	      22,
+"remaining":	50,
+"avgFillPrice":	22,
 "permId":		101000,
 "parentId":		0,
-"lastFillPrice":      22.1,
+"lastFillPrice":22.1,
 "clientId":		12345,
 "whyHeld":		"whyheld"
 }
@@ -364,7 +364,7 @@ Sample Json:
 {
 "ti":			"ERR_MSG",
 "id":			1000,
-"errorCode":	   20,
+"errorCode":	20,
 "errorMsg":		"err_20"
 }
 ```
