@@ -1,0 +1,3 @@
+This binary should be distributed or redisributed with the Documentation
+file provided in HTML that contains all the Licence information,
+Trademark, Copyright & Other notices.
