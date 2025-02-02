@@ -17,7 +17,7 @@ Copy the executable and XML file to the AmiBroker Installation directory.
 **This is a draft, any format,field,code is subject to change**
 
 ### https://www.amibroker.com/at/
-Kindly familiarize with AmiBroker Auto-Trading Interface describe here, as BrokerWS emulates the same design and flow. Repition of controller interface examples is ommitted here.
+Kindly familiarize with AmiBroker Auto-Trading Interface described here, as BrokerWS emulates the same design and flow. Repition of controller interface examples is omitted here.
 
 ### AFL usage
 Create object in your AFL file like this:
