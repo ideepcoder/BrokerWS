@@ -22,7 +22,7 @@ Orders are auto transmitted for now, your Client-APP can choose what to do.</p>
 <pre><code class="has-line-data" data-line-start="26" data-line-end="32" class="language-sh">wsc = GetTradingInterface( <span class="hljs-string">"WS"</span> );
 <span class="hljs-keyword">if</span>( wsc.IsConnected() )     // check <span class="hljs-keyword">if</span> connection to IB was successfull
 {
-   wcc.PlaceOrder( <span class="hljs-string">"MSFT"</span>, <span class="hljs-string">"BUY"</span>, <span class="hljs-number">100</span>, <span class="hljs-string">"MKT"</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-string">"DAY"</span>, <span class="hljs-number">1</span> );
+   wsc.PlaceOrder( <span class="hljs-string">"MSFT"</span>, <span class="hljs-string">"BUY"</span>, <span class="hljs-number">100</span>, <span class="hljs-string">"MKT"</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-string">"DAY"</span>, <span class="hljs-number">1</span> );
 }
 </code></pre>
 <h1 class="code-line" data-line-start=33 data-line-end=34 ><a id="REQUEST_STRUCTURES_33"></a>REQUEST STRUCTURES</h1>

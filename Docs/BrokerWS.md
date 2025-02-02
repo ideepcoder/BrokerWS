@@ -27,7 +27,7 @@ Orders are auto transmitted for now, your Client-APP can choose what to do.
 wsc = GetTradingInterface( "WS" );
 if( wsc.IsConnected() )		// check if connection to IB was successfull
 {
-   wcc.PlaceOrder( "MSFT", "BUY", 100, "MKT", 0, 0, "DAY", 1 );
+   wsc.PlaceOrder( "MSFT", "BUY", 100, "MKT", 0, 0, "DAY", 1 );
 }
 ```
 
