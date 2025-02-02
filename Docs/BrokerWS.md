@@ -2,7 +2,7 @@
 ## _BrokerWS is a Trading Interface for AmiBroker using Json &amp; WebSocket_
 
 [![Build Status](https://raw.githubusercontent.com/ideepcoder/BrokerWS/0e9daa2d2d7c53653b90e0475e46b92167e60a74/images/unknown.svg)](https://github.com/ideepcoder/BrokerWS)
-Doc version: 1.o, Build: 1.40.0
+Doc version: 1.o, Build: 1.4.0
 
 ## Features
 - Bi-directional websocket communication
@@ -37,6 +37,8 @@ https://www.amibroker.com/guide/w_placeorder.html
 # REQUEST STRUCTURES
 
 ## 1) Request IDs
+Request order status by orderId
+
 |key  |type |value|description|
 | ------ | ------ |------ |------ |
 |ti| string |reqIds| |
