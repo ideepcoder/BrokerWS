@@ -31,3 +31,5 @@ Copy the executable and XML file to the AmiBroker Installation directory.
 ## Licenses / Copyrights / Trademarks
 ##### This work incorporates materials copyrighted and trademarked by AmiBroker Company.
 AmiBroker and the AmiBroker logo are trademarks of AmiBroker Company, used with permission.
+
+<meta name="google-site-verification" content="P6lUDnSiQzdLc0o2hKTCqnrVbauXzN0wUsVwOr0pDRs" />
